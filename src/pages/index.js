@@ -10,7 +10,8 @@ import video from '../images/videofield.mp4'
 
 const LandingWrapper = styled.div`
   background-color: red;
-  display: grid;
+  display: flex;
+  justify-content: center;
   height: 100vh;
   width: 100vw;
 `
@@ -33,11 +34,11 @@ const LogoContainer = styled.img`
 `
 
 const ContactWrapper = styled.div`
-  align-items: flex-end;
   display: flex;
   position: absolute;
   bottom: 0;
-  @media (min-width: 600px) {
+  @media (min-width: 900px) {
+    align-items: flex-end;
     flex-direction: column;
     right: 0;
     top: 45vh;
@@ -46,11 +47,11 @@ const ContactWrapper = styled.div`
 
 const ContactHolder = styled.div`
   height: 55px;
-  width: 33.333vw;
+  width: 33.3333vw;
   background: #1da1f2;
   display: grid;
   place-items: center;
-  @media (min-width: 600px) {
+  @media (min-width: 900px) {
     width: 55px;
     :hover {
       width: 65px;
