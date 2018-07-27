@@ -36,6 +36,7 @@ const ContactWrapper = styled.div`
   align-items: flex-end;
   display: flex;
   position: absolute;
+  left: 0;
   bottom: 0;
   @media (min-width: 600px) {
     flex-direction: column;
