@@ -17,10 +17,10 @@ const LandingWrapper = styled.div`
 `
 
 const VideoContainer = styled.video`
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
   position: absolute;
-  width: 100vw;
+  width: 100%;
 `
 
 const TextWrapper = styled.div`
