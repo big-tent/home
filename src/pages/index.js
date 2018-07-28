@@ -9,7 +9,6 @@ import logo from '../images/LogoWhiteJuly28.svg'
 import video from '../images/videofield.mp4'
 
 const LandingWrapper = styled.div`
-  background-color: red;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -17,10 +16,12 @@ const LandingWrapper = styled.div`
 `
 
 const VideoContainer = styled.video`
-  height: 100%;
+  min-height: 100%;
   object-fit: cover;
-  position: absolute;
-  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
 `
 
 const TextWrapper = styled.div`
