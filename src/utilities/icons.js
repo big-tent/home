@@ -4,9 +4,11 @@ import { withBaseIcon } from 'react-icons-kit'
 import { envelope } from 'react-icons-kit/fa/envelope'
 import { twitter } from 'react-icons-kit/fa/twitter'
 import { phone } from 'react-icons-kit/fa/phone'
+import { home } from 'react-icons-kit/fa/home'
 
-const ContactIcon = withBaseIcon({ size: '35', style: { color: '#fff' } })
+const Icon = withBaseIcon({ size: '35', style: { color: '#fff' } })
 
-export const IconMail = () => <ContactIcon icon={envelope} />
-export const IconTwitter = () => <ContactIcon icon={twitter} />
-export const IconPhone = () => <ContactIcon icon={phone} />
+export const IconMail = () => <Icon icon={envelope} />
+export const IconTwitter = () => <Icon icon={twitter} />
+export const IconPhone = () => <Icon icon={phone} />
+export const IconHome = () => <Icon icon={home} />
