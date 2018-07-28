@@ -118,7 +118,9 @@ const Layout = () => (
     </TextWrapper>
     <ContactWrapper>
       <ContactHolder>
-        <IconMail />
+        <Link to="/contact">
+          <IconMail />
+        </Link>
       </ContactHolder>
       <ContactHolder>
         <a href="https://twitter.com/BigTentSocial">
