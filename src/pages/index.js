@@ -17,9 +17,9 @@ const LandingWrapper = styled.div`
 `
 
 const VideoContainer = styled.video`
-  min-height: 100%;
+  min-height: 100vh;
   object-fit: cover;
-  min-width: 100%;
+  min-width: 100vw;
 `
 
 const TextWrapper = styled.div`
