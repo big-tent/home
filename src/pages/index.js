@@ -19,15 +19,12 @@ const LandingWrapper = styled.div`
 const VideoContainer = styled.video`
   min-height: 100%;
   object-fit: cover;
-  position: fixed;
-  right: 0;
-  bottom: 0;
   min-width: 100%;
 `
 
 const TextWrapper = styled.div`
   place-self: center;
-  position: relative;
+  position: absolute;
   width: 75vmin;
 `
 
@@ -83,7 +80,7 @@ const LinksContainer = styled.div`
     color: white;
     font-size: 2rem;
     font-weight: 100;
-    margin: 10px 0 0 0;
+    margin: 5px 0 0 0;
     padding-bottom: 10px;
     text-align: center;
     @media (min-width: 600px) {
