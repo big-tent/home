@@ -23,7 +23,7 @@ const VideoContainer = styled.video`
 `
 
 const TextWrapper = styled.div`
-  place-self: center;
+  align-self: center;
   position: absolute;
   width: 75vmin;
 `
@@ -32,46 +32,11 @@ const LogoContainer = styled.img`
   width: 100%;
 `
 
-const ContactWrapper = styled.div`
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  @media (min-width: 900px) {
-    align-items: flex-end;
-    flex-direction: column;
-    right: 0;
-    top: 45vh;
-  }
-`
-
-const ContactHolder = styled.div`
-  height: 55px;
-  width: calc(100% / 3);
-  background: #1da1f2;
-  display: grid;
-  place-items: center;
-  @media (min-width: 900px) {
-    width: 55px;
-    :hover {
-      width: 65px;
-    }
-  }
-  :first-of-type {
-    background: #f2c71d;
-  }
-  :last-of-type {
-    background: #677685;
-  }
-`
-
 const LinksContainer = styled.div`
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 5;
   @media (min-width: 600px) {
     flex-direction: row;
   }
@@ -96,6 +61,40 @@ const LinksContainer = styled.div`
         }
       }
     }
+  }
+`
+
+const ContactWrapper = styled.div`
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  @media (min-width: 900px) {
+    align-items: flex-end;
+    flex-direction: column;
+    top: 45vh;
+    width: 100px;
+  }
+`
+
+const ContactHolder = styled.div`
+  height: 55px;
+  width: calc(100% / 3);
+  background: #1da1f2;
+  display: grid;
+  place-items: center;
+  @media (min-width: 900px) {
+    width: 55px;
+    :hover {
+      width: 65px;
+    }
+  }
+  :first-of-type {
+    background: #f2c71d;
+  }
+  :last-of-type {
+    background: #677685;
   }
 `
 
