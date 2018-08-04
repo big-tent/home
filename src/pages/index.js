@@ -85,15 +85,15 @@ const LinksContainer = styled.div`
     text-align: center;
     @media (min-width: 600px) {
       font-size: 2.5rem;
-    }
-    :hover {
-      cursor: pointer;
-      border-bottom: 10px solid #f2309b;
-      :first-of-type {
-        border-color: #374c8c;
-      }
-      :last-of-type {
-        border-color: #f2e205;
+      :hover {
+        cursor: pointer;
+        border-bottom: 10px solid #f2309b;
+        :first-of-type {
+          border-color: #374c8c;
+        }
+        :last-of-type {
+          border-color: #f2e205;
+        }
       }
     }
   }
