@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import { IconHome } from '../utilities/icons.js'
+import { IconSend } from '../utilities/icons.js'
 import Topper from '../components/Topper.js'
 
 const ContactWrapper = styled.div`
@@ -16,20 +17,21 @@ const Form = styled.form`
   align-items: center;
   display: flex;
   flex-direction: column;
+  width: 70vmin;
 `
 
 const Input = styled.input`
   font-size: 1rem;
   margin-bottom: 20px;
   padding: 5px;
-  width: 300px;
+  width: 100%;
 `
 const Message = styled.textarea`
   font-size: 1rem;
   height: 200px;
   margin-bottom: 20px;
   padding: 5px;
-  width: 300px;
+  width: 100%;
 `
 
 const Submit = styled.input`
@@ -40,7 +42,6 @@ const Submit = styled.input`
   font: bold 1rem arial, sans-serif;
   height: 50px;
   margin-bottom: 20px;
-  width: 200px;
   text-shadow: none;
 `
 
@@ -51,7 +52,6 @@ const HomeButton = styled.button`
   display: flex;
   font: bold 1rem arial, sans-serif;
   padding: 10px;
-  width: 200px;
 `
 
 const Contact = () => (
