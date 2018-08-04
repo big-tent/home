@@ -12,6 +12,7 @@ const LandingWrapper = styled.div`
   display: flex;
   justify-content: center;
   height: 100vh;
+  position: relative;
   width: 100vw;
 `
 
@@ -36,8 +37,10 @@ const LogoContainer = styled.img`
 
 const ContactWrapper = styled.div`
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  left: 0;
+  width: 100%;
   @media (min-width: 900px) {
     align-items: flex-end;
     flex-direction: column;
@@ -48,7 +51,7 @@ const ContactWrapper = styled.div`
 
 const ContactHolder = styled.div`
   height: 55px;
-  width: 33.3333vw;
+  width: calc(100% / 3);
   background: #1da1f2;
   display: grid;
   place-items: center;
