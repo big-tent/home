@@ -7,10 +7,10 @@ import { IconSend } from '../utilities/icons.js'
 import Topper from '../components/Topper.js'
 
 const ContactWrapper = styled.div`
-  place-items: center;
   display: grid;
   min-height: 100%;
   min-width: 100%;
+  place-items: center;
 `
 
 const Form = styled.form`
@@ -56,7 +56,7 @@ const HomeButton = styled.button`
 
 const Contact = () => (
   <ContactWrapper>
-    <Topper />
+    <Topper color="#f2c71d" />
     <h1>Contact us</h1>
 
     <Form action="https://formspree.io/davidcooper974@gmail.com" method="POST">

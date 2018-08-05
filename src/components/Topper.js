@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ColouredTopper = styled.div`
-  background: #f2c71d;
+  background: ${props => props.color};
   height: 10vh;
   margin-bottom: 60px;
   position: relative;
@@ -21,6 +21,8 @@ const ColouredTopper = styled.div`
   }
 `
 
-const Topper = () => <ColouredTopper />
+const Topper = props => {
+  return <ColouredTopper color={props.color} />
+}
 
 export default Topper

@@ -5,7 +5,7 @@ import Topper from '../components/Topper.js'
 
 const Content = () => (
   <div>
-    <Topper />
+    <Topper color="#f2e205" />
     <h1>Content creation goodness on its way</h1>
     <Link to="/">
       <button>Take me home</button>

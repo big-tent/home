@@ -5,7 +5,7 @@ import Topper from '../components/Topper.js'
 
 const Web = () => (
   <div>
-    <Topper />
+    <Topper color="#374c8c" />
     <h1>Web design goodness on its way</h1>
     <Link to="/">
       <button>Take me home</button>
