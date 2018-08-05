@@ -17,10 +17,12 @@ const LandingWrapper = styled.div`
 `
 
 const VideoContainer = styled.video`
-  min-height: 100%;
-  min-width: 100%;
+  height: 100%;
+  left: 0;
   object-fit: cover;
   position: absolute;
+  top: 0;
+  width: 100%;
 `
 
 const TextWrapper = styled.div`
@@ -42,15 +44,15 @@ const LinksContainer = styled.div`
     flex-direction: row;
   }
   h1 {
-    border-bottom: 10px solid transparent;
     color: white;
     font-size: 2rem;
     font-weight: 100;
     margin: 5px 0 0 0;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-align: center;
     @media (min-width: 600px) {
       font-size: 2.5rem;
+      border-bottom: 10px solid transparent;
       :hover {
         cursor: pointer;
         border-bottom: 10px solid #f2309b;
