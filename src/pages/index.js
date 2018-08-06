@@ -1,12 +1,12 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
+import React from "react"
+import Link from "gatsby-link"
+import styled from "styled-components"
 
-import '../utilities/index.css'
-import { IconMail, IconTwitter, IconPhone } from '../utilities/icons.js'
+import "../utilities/index.css"
+import { IconMail, IconTwitter, IconPhone } from "../utilities/icons.js"
 
-import logo from '../images/LogoWhiteJuly28.svg'
-import video from '../images/videofield.mp4'
+import logo from "../images/LogoWhiteJuly28.svg"
+import video from "../images/videofield.mp4"
 
 const LandingWrapper = styled.div`
   display: flex;
@@ -20,9 +20,9 @@ const VideoContainer = styled.video`
   height: 100%;
   left: 0;
   object-fit: cover;
-  position: absolute;
-  top: 0;
+  position: fixed;
   width: 100%;
+  top: 0;
 `
 
 const TextWrapper = styled.div`
