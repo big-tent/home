@@ -1,16 +1,16 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react"
+import styled from "styled-components"
 
 const ColouredTopper = styled.div`
   background: ${props => props.color};
   height: 10vh;
-  margin-bottom: 60px;
+  margin-bottom: 15vh;
   position: relative;
   width: 100%;
   :after {
     background: inherit;
     bottom: 0;
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     left: 0;

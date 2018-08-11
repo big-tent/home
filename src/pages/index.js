@@ -6,7 +6,7 @@ import "../utilities/index.css"
 import { IconMail, IconTwitter, IconPhone } from "../utilities/icons.js"
 
 import logo from "../images/LogoWhiteJuly28.svg"
-import video from "../images/videofield.mp4"
+import sky from "../images/fire.jpeg"
 
 const LandingWrapper = styled.div`
   display: flex;
@@ -16,7 +16,7 @@ const LandingWrapper = styled.div`
   width: 100vw;
 `
 
-const VideoContainer = styled.video`
+const BackgroundImage = styled.img`
   height: 100%;
   left: 0;
   object-fit: cover;
@@ -50,6 +50,7 @@ const LinksContainer = styled.div`
     margin: 5px 0 0 0;
     padding-bottom: 5px;
     text-align: center;
+    text-shadow: 2px 2px 2px #000;
     @media (min-width: 600px) {
       font-size: 2.5rem;
       border-bottom: 10px solid transparent;
@@ -103,7 +104,7 @@ const ContactHolder = styled.div`
 
 const Layout = () => (
   <LandingWrapper>
-    <VideoContainer src={video} autoPlay="autoplay" loop="true" muted="true" />
+    <BackgroundImage src={sky} />
     <TextWrapper>
       <LogoContainer src={logo} />
       <LinksContainer>
