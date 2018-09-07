@@ -1,10 +1,10 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
+import React from "react"
+import Link from "gatsby-link"
+import styled from "styled-components"
 
-import { IconHome } from '../utilities/icons.js'
-import { IconSend } from '../utilities/icons.js'
-import Topper from '../components/Topper.js'
+import { IconHome } from "../utilities/icons.js"
+import { IconSend } from "../utilities/icons.js"
+import Topper from "../components/Topper.js"
 
 const ContactWrapper = styled.div`
   display: grid;
@@ -59,7 +59,7 @@ const Contact = () => (
     <Topper color="#f2c71d" />
     <h1>Contact us</h1>
 
-    <Form action="https://formspree.io/davidcooper974@gmail.com" method="POST">
+    <Form action="https://formspree.io/david@bigtent.media" method="POST">
       <Input type="text" name="name" placeholder="Your name" />
       <Input type="email" name="_replyto" placeholder="Your email" />
       <Message type="message" name="message" placeholder="Your message" />
@@ -67,7 +67,8 @@ const Contact = () => (
     </Form>
     <Link to="/">
       <HomeButton>
-        <IconHome />Take me home
+        <IconHome />
+        Take me home
       </HomeButton>
     </Link>
   </ContactWrapper>
