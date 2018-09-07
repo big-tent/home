@@ -104,9 +104,9 @@ const ContactHolder = styled.div`
 
 const Layout = () => (
   <LandingWrapper>
-    <BackgroundImage src={sky} />
+    <BackgroundImage src={sky} alt="fire background" />
     <TextWrapper>
-      <LogoContainer src={logo} />
+      <LogoContainer src={logo} alt="Big Tent logo" />
       <LinksContainer>
         <h1>
           <Link to="/web">Web</Link>
